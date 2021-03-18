@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#050505</color>
+    <color name="colortransferent">#fbc531</color>
+    <!--<color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#c23616</color> -->
+
+    <color name="colorAccent">#fbc531</color>
+    <color name="colorstart">#51BC5E</color>
+    <color name="colorEnd">#19B493</color>
+    <color name="red">#FF1744</color>
+    <color name="black">#000000</color>
+
+
+    <color name="toolbar">#f20056</color>
+    <color name="about_us_Text">#636363</color>
+    <color name="about_us_SubText">#8b8b8b</color>
+    <color name="selectedColor">#f20056</color>
+    <color name="transparent">#00000000</color>
+<!--    <color name="white">#FFFFFF</color>-->
+    <color name="white">#FFC107</color>
+    <color name="view_login">#CFCFCF</color>
+    <color name="textView_login">#FFFFFF</color>
+    <color name="textView_hint_login">#CFCFCF</color>
+    <color name="textView_button_login">#FFFFFF</color>
+    <color name="textView_button_forget_password_login">#F24392</color>
+    <color name="textView_forgot_password_login">#FFFFFF</color>
+    <color name="textView_register">#FFFFFF</color>
+    <color name="textView_hint_register">#CFCFCF</color>
+    <color name="textView_already_register">#424242</color>
+    <color name="textView_login_register">#ffd973</color>
+    <color name="textView_upload_fragment">#424242</color>
+    <color name="textView_copy_reference_code">#f20056</color>
+    <color name="yellow">#ffd973</color>
+    <color name="line_textView_login_bg">#CFCFCF</color>
+    <color name="button_register_line">#F24392</color>
+    <color name="button_login_bg_color">#f20056</color>
+    <color name="textView_contact_us">#9C27B0</color>
+    <color name="colorPrice">#51BC5E</color>
+
+
+
+
+
+    <color name="colorDarkGray">#eceded</color>
+    <color name="colorPressedGray">#b2b3b3</color>
+
+
+    <color name="colorRegbuttonNormal">#f7ae2f</color>
+    <color name="colorRegButtonDisabled">#fad9a0</color>
+    <color name="colorRegButtonPressed">#FFA514</color>
+
+    <color name="rainbowDashRed">#ff313e</color>
+    <color name="rainbowDashPeach">#ECD300</color>
+    <color name="rainbowDashYellow">#00B977</color>
+    <color name="rainbowDashGreen">#0088ff</color>
+    <color name="rainbowDashBlue">#b800ff</color>
+
+    <string-array name="rainbow_dash">
+        <item>@color/rainbowDashRed</item>
+        <item>@color/rainbowDashPeach</item>
+        <item>@color/rainbowDashYellow</item>
+        <item>@color/rainbowDashGreen</item>
+        <item>@color/rainbowDashBlue</item>
+    </string-array>
+</resources>

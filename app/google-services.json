@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389153635576",
+    "firebase_url": "https://common-projects-2535c.firebaseio.com",
+    "project_id": "common-projects-2535c",
+    "storage_bucket": "common-projects-2535c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389153635576:android:c64cfbf700c4efa95e8f0d",
+        "android_client_info": {
+          "package_name": "com.lucky.spintoearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389153635576-2fqaf4s5u6eonguko21g4emn2s7h5jsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPbCU91oNDycwWcRUJt05X5CuS4a7cEII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389153635576-2fqaf4s5u6eonguko21g4emn2s7h5jsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

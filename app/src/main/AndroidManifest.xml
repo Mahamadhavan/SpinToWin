@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xitij.spintoearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.xitij.spintoearn.Util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.xitij.spintoearn.Activity.Guest"></activity>
+        <activity android:name="com.xitij.spintoearn.Activity.Leaderboard" />
+        <activity android:name="com.xitij.spintoearn.Activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xitij.spintoearn.Activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.Wallet"
+            android:label="@string/wallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.Register"
+            android:label="@string/register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.Login"
+            android:label="@string/login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.ReferCode"
+            android:label="@string/referCode" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.BidSpin"
+            android:label="@string/bidSpin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.VideoZone"
+            android:label="@string/videoZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.RewardClaim"
+            android:label="@string/rewardClaim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.ContactUs"
+            android:label="@string/contactUs" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.PrivatePolice"
+            android:label="@string/privatePolice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xitij.spintoearn.Activity.AboutUs"
+            android:label="@string/aboutUs"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.xitij.spintoearn.Util.BackgroundSoundService"
+            android:enabled="true" /> <!-- Activity required to show ad overlays. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9637962418458686~7962058417" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="210129135" />
+
+    </application>
+
+</manifest>

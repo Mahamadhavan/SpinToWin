@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spinback"
+        tools:context="com.xitij.spintoearn.Activity.MainActivity">
+
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            style="@style/MyToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="16dp"
+                android:drawablePadding="5dp"
+                android:text="00"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/white" />
+        </android.support.v7.widget.Toolbar>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:scaleType="fitXY"
+            android:src="@drawable/border" />
+
+        <RelativeLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="40dp"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/stand_golden"
+
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/round_gif" />
+
+            <com.xitij.spintoearn.Spinner.SpinningWheelView
+                android:id="@+id/wheel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="22dp"
+                android:layout_weight="1"
+                app:wheel_arrow_color="@color/yellow"
+                app:wheel_arrow_height="35dp"
+                app:wheel_arrow_width="50dp"
+                app:wheel_colors="@array/rainbow_dash"
+                app:wheel_items="@array/dummy"
+                app:wheel_stroke_color="#f7be00"
+                app:wheel_stroke_width="5dp"
+                app:wheel_text_size="20dp"
+
+                />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/buttonSpin"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/roundd" />
+
+            <!--    <ImageView
+                    android:id="@+id/buttonSpin"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/roundd"
+
+                    />-->
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_leader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/adView"
+            android:text="leader"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" />
+
+        <com.startapp.sdk.ads.banner.Banner
+            android:layout_above="@+id/adView"
+            android:id="@+id/startAppBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            tools:layout_height="50dp" />
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimaryDark"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_drawer"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/main_menu" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Spin to Earn</string>
+
+    <string name="privacy_policy_url">https://www.offsettech.com/terms-of-service.php</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="button_text_login">LOG IN</string>
+    <string name="button_text_register">REGISTER</string>
+    <string name="textView_forget_password">FORGOT PASSWORD ?</string>
+    <string name="already_have_an_account_yet">Already have an account ?</string>
+    <string name="register_login_text">Login</string>
+    <string name="name">Name</string>
+    <string name="phoneNo">Phone No</string>
+    <string name="reference_code">Reference Code</string>
+    <string name="ok_message">ok</string>
+
+    <string name="loading">loading</string>
+    <string name="adsloading">ads loading</string>
+    <string name="Congratulation">Congratulation</string>
+
+    <string name="coin_history">Coin History</string>
+    <string name="withdrawl_history">Withdrawl History</string>
+    <string name="select_payment_type">Select Payment Type</string>
+    <string name="please_select_payment">Please Select Payment Type</string>
+    <string name="please_enter_payment_details">Please Enter Payment Details</string>
+
+    <string name="refer_code_name">Your Referance Code</string>
+    <string name="tap_copy">Tab To Copy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="about_us_version">Version</string>
+    <string name="about_us_Company">Company Name</string>
+    <string name="about_us_email">Email</string>
+    <string name="about_us_about">About</string>
+
+    <string name="PhoneeditText_error">Please enter phone no</string>
+    <string name="NameEditText_error">please enter name</string>
+    <string name="PasswordEditTest_error">please enter Password</string>
+    <string name="EmailEditText_error">please enter Valid Email</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="please_enter_email">please enter Valid Email</string>
+    <string name="please_enter_name">please enter Name</string>
+    <string name="please_enter_message">please enter Message</string>
+    <string name="claim_text">Please select your transaction type and fill the details and admin will soon contact you.</string>
+
+    /*Activity label Name*/
+    <string name="wallet">Wallet</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="referCode">Refer Code</string>
+    <string name="bidSpin">Lucky Spin</string>
+    <string name="videoZone">Video Zone</string>
+    <string name="rewardClaim">Reward Claim</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="privatePolice">Privacy Policy</string>
+    <string name="aboutUs">About Us</string>
+
+    /*Activity label Name*/
+    <string name="menuwallet">Wallet</string>
+    <string name="menureferCode">Refer friend</string>
+    <string name="menubidSpin">Lucky Spin</string>
+    <string name="menuvideoZone">Video Zone</string>
+    <string name="menuContactUs">Contact Us</string>
+    <string name="menushare">Share</string>
+    <string name="menuMoreApp">More App</string>
+    <string name="menuprivatePolice">Privacy Policy</string>
+    <string name="menuaboutUs">About Us</string>
+    <string name="menuLogout">Logout</string>
+
+    <string name="internet_connection">Internet connection not available</string>
+
+    <string name="AD_ID">ca-app-pub-9637962418458686/9376046580</string>
+<!--    <string name="AD_ID">ca-app-pub-9637962418458686~7962058417</string>-->
+
+<!--    <string name="facebook_banner">796696520809177_796697040809125</string>-->
+    <string name="facebook_banner">1050984962022380_1050985392022337</string>
+<!--    <string name="facebook_inter">796696520809177_796697234142439</string>-->
+    <string name="facebook_inter">1050984962022380_1051042295349980</string>
+<!--    <string name="facebook_reward">796696520809177_796697344142428</string>-->
+    <string name="facebook_reward">1050984962022380_1051043578683185</string>
+
+
+    <string-array name="luckyspin">
+        <item>150</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>100</item>
+        <item>50</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>150</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+
+    </string-array>
+    <string-array name="dummy">
+
+        <item>45</item>
+        <item>100</item>
+        <item>15</item>
+        <item>80</item>
+        <item>65</item>
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>5</item>
+        <item>35</item>
+        <item>70</item>
+        <item>55</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="contact_detail">Please enter you contact details . Admin will contact you soon.</string>
+    <string name="your_message">Enter Your Message</string>
+    <string name="submitbtn">Submit</string>
+
+
+</resources>

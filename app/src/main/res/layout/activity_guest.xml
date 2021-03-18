@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Guest"
+    android:background="@drawable/spinback"
+    >
+
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:srcCompat="@drawable/ic_arrow_back"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/coins"
+            android:padding="@dimen/_7sdp"
+            />
+
+    <TextView
+        android:id="@+id/tv_coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="@dimen/_30sdp"
+        />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_30sdp"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/stand_golden"
+            android:scaleType="fitEnd"
+            android:padding="40dp"
+
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_gif"
+            android:id="@+id/gif"
+            />
+        <com.xitij.spintoearn.Spinner.SpinningWheelView
+            android:id="@+id/wheel"
+            android:layout_margin="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            app:wheel_arrow_color="@color/yellow"
+            app:wheel_arrow_height="35dp"
+            app:wheel_arrow_width="50dp"
+            app:wheel_text_size="28dp"
+            app:wheel_colors="@array/rainbow_dash"
+            app:wheel_items="@array/dummy"
+            app:wheel_stroke_color="#f7be00"
+            app:wheel_stroke_width="5dp"
+
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/buttonSpin"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/roundd"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

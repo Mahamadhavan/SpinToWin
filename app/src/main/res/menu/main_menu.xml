@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shreesoftech.pocket.account">
+   <group android:id="@+id/sorting" >
+    <item
+        android:id="@+id/lucky"
+        android:icon="@drawable/ic_adjust_black_24dp"
+        android:title="@string/menubidSpin" />
+
+
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="@string/menuwallet" />
+
+    <item
+        android:id="@+id/mnvideozone"
+        android:icon="@drawable/ic_video_black_24dp"
+        android:title="@string/menuvideoZone"
+        />
+       <item
+           android:id="@+id/leaderboard"
+           android:icon="@drawable/ic_leader"
+           android:title="Leader board"
+           />
+    <item
+        android:id="@+id/mnrefer"
+        android:icon="@drawable/ic_redeem_black_24dp"
+        android:title="@string/menureferCode"
+        />
+   </group>
+    <group android:id="@+id/sorting2" >
+    <item
+        android:id="@+id/mnrate"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Rate App and get 1000 point"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/mnshare"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="@string/menushare"
+        />
+
+    <item
+        android:id="@+id/mnmore"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="@string/menuMoreApp"
+        />
+
+    <item
+        android:id="@+id/mncontact"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/menuContactUs"
+        />
+
+    <item
+        android:id="@+id/mnprivacy"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="@string/menuprivatePolice"
+        android:textStyle="bold"
+        />
+    <item
+       android:id="@+id/mnabout_us"
+       android:icon="@drawable/ic_about"
+       android:title="@string/menuaboutUs"
+       />
+   </group>
+    <group android:id="@+id/sorting1" >
+        <item
+            android:id="@+id/mnlogout"
+            android:icon="@drawable/logout"
+            android:title="@string/menuLogout"
+            android:textStyle="bold"
+            />
+    </group>
+</menu>

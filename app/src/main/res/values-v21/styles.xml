@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="MyToolbar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+</resources>

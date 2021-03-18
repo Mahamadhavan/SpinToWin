@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp"
+    android:layout_marginTop="14dp"
+    app:cardCornerRadius="6dp">
+
+    <FrameLayout
+        android:id="@+id/item_task_container"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/selector_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_ads_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="Hello"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_g_video"/>
+
+        <TextView
+            android:id="@+id/item_ads_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginStart="80dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            tools:text="Hello"/>
+
+        <TextView
+            android:id="@+id/item_ads_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="95dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="Bangladesh"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end" />
+
+        <TextView
+            android:id="@+id/item_ads_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/shape_price"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="10"/>
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>
